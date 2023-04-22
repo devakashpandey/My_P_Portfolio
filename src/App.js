@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useContext } from "react";
+import "./App.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { ThemeContext } from "./context/Theme";
+import Header from "./components/header/Header";
 
-function App() {
+const App = () => {
+  const [{ theme }] = useContext(ThemeContext);
+
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div id="top" className={`${theme} app`}>
+        <section id="#home">
+          <Header />
+        </section>
+
+        {/* <main>
+          <About />
+        </main>
+
+        <Github />
+
+        <section id="#projects">
+          <Projects />
+        </section>
+
+        <section id="#contact">
+          <Contact />
+        </section>
+
+        <Footer />
+
+        <ScrollToTop /> */}
+      </div>
+    </>
   );
-}
+};
 
 export default App;
