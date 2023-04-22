@@ -5,7 +5,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 import DescriptionIcon from "@mui/icons-material/Description";
 import Typer from "./autoTyper/Typer";
-// import Intro from "./introduction/Intro";
+import Intro from "./introduction/Intro";
 // import Timeline from "./timeline/Timeline";
 // import Skills from "../skills/Skills";
 
@@ -60,7 +60,7 @@ const About = () => {
       </div>
 
       {/* ----------- My introduction section starts ------- */}
-      {/* <Intro /> */}
+      <Intro />
 
       {/* ----------- My timeline section starts ------- */}
       {/* <Timeline /> */}
