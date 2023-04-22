@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import { ThemeContext } from "./context/Theme";
 import Header from "./components/header/Header";
 import About from "./components/about/About";
+import Skills from "./skills/Skills";
 
 const App = () => {
   const [{ theme }] = useContext(ThemeContext);
@@ -22,7 +23,7 @@ const App = () => {
         <main>
           <About />
         </main>
-
+        <Skills />
         {/* <Github />
 
         <section id="#projects">
