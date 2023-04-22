@@ -1,0 +1,25 @@
+.footerBox {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 20px;
+  background-color: transparent;
+  height: auto;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  text-align: center;
+  color: var(--clr-primary);
+}
+
+@media (max-width: 600px) {
+  .footerBox {
+    width: 100%;
+    border-radius: 0px;
+    margin-bottom: 0px;
+  }
+}

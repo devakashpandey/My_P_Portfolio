@@ -9,6 +9,8 @@ import Skills from "./skills/Skills";
 import Github from "./components/myGithub/Github";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
+import ScrollToTop from "./components/scrollToTop/ScrollToTop";
 
 const App = () => {
   const [{ theme }] = useContext(ThemeContext);
@@ -19,28 +21,30 @@ const App = () => {
   return (
     <>
       <div id="top" className={`${theme} app`}>
+        {/* ------ header section ------ */}
         <section id="#home">
           <Header />
         </section>
-
+        {/* -------about section------ */}
         <main>
           <About />
         </main>
+        {/* -------skills section------- */}
         <Skills />
-
+        {/* -------github section-------- */}
         <Github />
-
+        {/* -------projects section------- */}
         <section id="#projects">
           <Projects />
         </section>
-
+        {/* -------contacts section------- */}
         <section id="#contact">
           <Contact />
         </section>
-
-        {/*<Footer />
-
-        <ScrollToTop /> */}
+        {/* -------footer section------- */}
+        <Footer />
+        {/* -------scrool to top button------- */}
+        <ScrollToTop />
       </div>
     </>
   );
