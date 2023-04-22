@@ -4,6 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { ThemeContext } from "./context/Theme";
 import Header from "./components/header/Header";
+import About from "./components/about/About";
 
 const App = () => {
   const [{ theme }] = useContext(ThemeContext);
@@ -18,11 +19,11 @@ const App = () => {
           <Header />
         </section>
 
-        {/* <main>
+        <main>
           <About />
         </main>
 
-        <Github />
+        {/* <Github />
 
         <section id="#projects">
           <Projects />
