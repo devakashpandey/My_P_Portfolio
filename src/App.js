@@ -7,6 +7,7 @@ import Header from "./components/header/Header";
 import About from "./components/about/About";
 import Skills from "./skills/Skills";
 import Github from "./components/myGithub/Github";
+import Projects from "./components/projects/Projects";
 
 const App = () => {
   const [{ theme }] = useContext(ThemeContext);
@@ -28,11 +29,11 @@ const App = () => {
 
         <Github />
 
-        {/* <section id="#projects">
+        <section id="#projects">
           <Projects />
         </section>
 
-        <section id="#contact">
+        {/* <section id="#contact">
           <Contact />
         </section>
 
