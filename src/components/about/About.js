@@ -4,7 +4,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 import DescriptionIcon from "@mui/icons-material/Description";
-// import Type from "./autoTyper/Type";
+import Typer from "./autoTyper/Typer";
 // import Intro from "./introduction/Intro";
 // import Timeline from "./timeline/Timeline";
 // import Skills from "../skills/Skills";
@@ -16,7 +16,7 @@ const About = () => {
         <h1 data-aos="fade-right" className="my-name">
           Hey, I am <span className="name"> Akash Pandey</span>
         </h1>
-        {/* <Type /> */}
+        <Typer />
         <p className="about-descrip" data-aos="fade-right">
           A passionate Front-end developer based in India with experience of 1
           year. I love to work on web application & making new designs using
