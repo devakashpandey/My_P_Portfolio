@@ -8,6 +8,7 @@ import About from "./components/about/About";
 import Skills from "./skills/Skills";
 import Github from "./components/myGithub/Github";
 import Projects from "./components/projects/Projects";
+import Contact from "./components/contact/Contact";
 
 const App = () => {
   const [{ theme }] = useContext(ThemeContext);
@@ -33,11 +34,11 @@ const App = () => {
           <Projects />
         </section>
 
-        {/* <section id="#contact">
+        <section id="#contact">
           <Contact />
         </section>
 
-        <Footer />
+        {/*<Footer />
 
         <ScrollToTop /> */}
       </div>

@@ -1,0 +1,65 @@
+.contactcontainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2em;
+  width: 30rem;
+  border-radius: 20px;
+  background-color: transparent;
+  margin: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.contactMain {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin: auto;
+}
+
+.contactcontainer svg {
+  font-size: 3em;
+  transition: all 0.3s ease-in-out 0s;
+  color: var(--clr-primary);
+  border: 2px solid var(--clr-primary);
+  padding: 8px;
+  border-radius: 20%;
+}
+
+.contactcontainer svg:hover {
+  transform: scale(1.2);
+}
+.linkedin:hover {
+  color: #0a66c2;
+}
+.github:hover {
+  color: black;
+}
+.email:hover {
+  color: #d93025;
+}
+.twitter:hover {
+  color: rgb(29, 155, 240);
+}
+.instagram:hover {
+  color: #f40cda;
+}
+
+@media (max-width: 670px) {
+  .contactcontainer svg {
+    font-size: 2.7em;
+  }
+  .contactcontainer {
+    width: 21rem;
+  }
+
+  .contactMain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+  .iconsCont {
+    width: 90%;
+  }
+}
