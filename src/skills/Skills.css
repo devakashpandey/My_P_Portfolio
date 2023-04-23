@@ -1,6 +1,10 @@
+.skillwrapper {
+  margin-top: 5rem;
+}
+
 .main {
-  margin-top: 4em;
-  width: 95%;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 .skills {
   width: 100%;
@@ -38,6 +42,63 @@
   font-size: 8vh;
   color: var(--clr-primary);
 }
+.skills > div > h5 {
+  position: relative;
+  top: 8px;
+}
+
+@media (max-width: 600px) {
+  .skills {
+    height: 115vh;
+  }
+  .skills > div {
+    width: 38%;
+    margin-bottom: 2%;
+    height: 18vh;
+    margin-left: 7%;
+  }
+}
+
+/* .main {
+  margin-top: 4em;
+  width: 100%;
+  padding: 3rem;
+}
+.skills {
+  text-align: center;
+  background-color: var(--clr-bg);
+  height: 50vh;
+}
+
+.skills > div {
+  width: 10%;
+  height: 16vh;
+  max-height: 140px;
+  box-shadow: var(--shadow);
+  z-index: 1;
+  border-radius: 20px;
+  margin: 2.5%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease 0s;
+  border: 2px solid var(--clr-primary);
+}
+.skills > div:hover {
+  background-color: var(--clr-bg);
+  overflow: hidden;
+  transform: scale(1.08);
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border: 1px solid var(--clr-primary);
+}
+
+.skills > div > svg {
+  font-size: 8vh;
+  color: var(--clr-primary);
+}
 
 .skills > div > h5 {
   position: relative;
@@ -47,8 +108,8 @@
 
 @media (max-width: 600px) {
   .skills {
-    height: 120vh;
-    margin-left: 6%;
+    height: 110vh;
+    margin-left: 8%;
   }
   .skills > div {
     width: 40%;
@@ -57,8 +118,12 @@
     height: 18vh;
   }
 
+  main {
+    width: 95%;
+  }
+
   .skills > div > svg {
     font-size: 7vh;
     color: var(--clr-primary);
   }
-}
+} */
