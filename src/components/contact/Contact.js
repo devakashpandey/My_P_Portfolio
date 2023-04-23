@@ -28,7 +28,7 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <VscGithub className="github" />
+              <VscGithub className="github-icon" />
             </a>
             <a
               href="mailto:developerakky@gmail.com"
