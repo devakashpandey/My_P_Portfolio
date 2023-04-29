@@ -26,8 +26,8 @@ const Intro = () => {
                 Applications) from{" "}
                 <span className="different">AKU University, Patna (Bihar)</span>
                 . Then I joined Front-end development course by{" "}
-                <span className="different">Relevel</span> & also learn from
-                YouTube.
+                <span className="different">Relevel</span> &{" "}
+                <span className="different">AlmaBetter</span>
               </h4>
               <h4 className="terms" data-aos="fade-right">
                 Terms That can describe me apart form Coding :

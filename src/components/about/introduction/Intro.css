@@ -15,14 +15,14 @@
 }
 
 .my-pic {
-  flex-basis: 45%;
+  flex-basis: 44%;
   display: flex;
   justify-content: center;
 }
 
 .my-pic > img {
   width: 55%;
-  height: 95%;
+  height: 94%;
   border-radius: 10%;
   border: 5px solid var(--clr-primary);
   object-fit: cover;
