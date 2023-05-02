@@ -15,7 +15,7 @@ import { DiCss3 } from "react-icons/di";
 import projectCrypto from "../../assets/projects/crypto.png";
 import tmoviesImg from "../../assets/projects/t-movies.png";
 import amazonImg from "../../assets/projects/amazon.png";
-import CodePenImg from "../../assets/projects/codepen.png";
+import filmy from "../../assets/projects/filmy.png";
 
 const Projects = () => {
   return (
@@ -125,12 +125,13 @@ const Projects = () => {
                   here.
                 </p>
                 <div>
-                  <SiTailwindcss title="Tailwind css" />
                   <FaReact title="React" />
+                  <SiTailwindcss title="Tailwind css" />
                   <SiRedux title="Redux" />
                   <SiReactrouter title="React Router" />
                   <SiMui title="Material UI" />
                   <SiFramer title="Framer Motion" />
+                  <SiFirebase />
                 </div>
                 <div>
                   <a
@@ -160,28 +161,34 @@ const Projects = () => {
             <div className="project">
               <div className="project_banner">
                 <div>
-                  <img src={CodePenImg} alt="" />
+                  <img src={filmy} alt="" />
                 </div>
               </div>
               <div className="project_info">
-                <h2>Code Pen Clone</h2>
+                <h2>Filmy Duniya</h2>
                 <p>
-                  A Code Pen Clone using CodeMirror Package in which we can code
-                  in HTML, CSS & JAVASCRIPT for practice purpose and it reflect
-                  the result below the editor.
+                  A Movies Collection web app where you can manually add Movies,
+                  Give Rating, Add Reviews after Signup & Login.Signup
+                  functionality with OTP verification.
                 </p>
                 <div>
                   <SiReact title="React" />
                   <SiMui title="Material UI" />
+                  <SiTailwindcss title="Tailwind css" />
+                  <SiFirebase title="firebase" />
                 </div>
                 <div>
-                  <a href={CodePenImg} target="_blank" rel="noreferrer">
+                  <a
+                    href="https://flimy-duniya.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <span type="button" className="btns onbt onbt">
                       See Demo
                     </span>
                   </a>
                   <a
-                    href="https://github.com/devakashpandey/Code-Pen-Project"
+                    href="https://github.com/devakashpandey/Filmy-Duniya"
                     target="_blank"
                     rel="noreferrer"
                   >
