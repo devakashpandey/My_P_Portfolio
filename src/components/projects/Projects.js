@@ -121,7 +121,7 @@ const Projects = () => {
                 <p>
                   A Amazon Clone in which we can add products to cart & delete
                   from cart using Redux Toolkit & save the data in Local storage
-                  using Redux-Presist. Sign up & Sign in functionality is also
+                  using Redux-Persist. Sign up & Sign in functionality is also
                   here.
                 </p>
                 <div>
