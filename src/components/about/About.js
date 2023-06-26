@@ -47,8 +47,8 @@ const About = () => {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1CTLJlNZotzLpa0kdtHtvqi8P4aUfEJd_/view?usp=share_link"
-            aria-label="twitter"
+            href="https://drive.google.com/file/d/1Qmdiqj-IKi0AYwNCdQEkEhKJ3QZxw2fP/view?usp=drive_link"
+            aria-label="resume"
             className="link link--icon"
             target="_blank"
             rel="noreferrer"
