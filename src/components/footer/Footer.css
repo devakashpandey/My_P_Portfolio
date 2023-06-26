@@ -9,11 +9,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 15px;
 }
 
 .name {
   text-align: center;
   color: var(--clr-primary);
+  font-size: 18px;
 }
 
 @media (max-width: 600px) {
