@@ -12,6 +12,7 @@ import { DiCss3 } from "react-icons/di";
 import { SiJavascript, SiFirebase } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap } from "react-icons/bs";
+import { SiTypescript } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -54,8 +55,12 @@ const Skills = () => {
               <h5>Redux</h5>
             </div>
             <div>
+              <SiTypescript />
+              <h5>TypeScript</h5>
+            </div>
+            <div>
               <SiTailwindcss />
-              <h5>Tailwind</h5>
+              <h5>Tailwind </h5>
             </div>
             <div>
               <SiNetlify />

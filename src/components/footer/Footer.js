@@ -14,7 +14,7 @@ const Footer = () => {
             Copyright © {year} - All Rights Reserved
           </span>
           <a href="/" rel="noreferrer">
-            <h4 className="name">Akash Pandey</h4>
+            <h4 className="f-name">Akash Pandey</h4>
           </a>
         </div>
       </div>

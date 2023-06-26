@@ -32,7 +32,7 @@ const About = () => {
             className="link link--icon"
             title="Github"
           >
-            <GitHubIcon />
+            <GitHubIcon style={{ fontSize: "30px" }} />
           </a>
 
           <a
@@ -43,7 +43,7 @@ const About = () => {
             rel="noreferrer"
             title="Linkedin"
           >
-            <LinkedInIcon />
+            <LinkedInIcon style={{ fontSize: "30px" }} />
           </a>
 
           <a
@@ -54,7 +54,7 @@ const About = () => {
             rel="noreferrer"
             title="Resume"
           >
-            <DescriptionIcon />
+            <DescriptionIcon style={{ fontSize: "30px" }} />
           </a>
         </div>
       </div>
