@@ -18,10 +18,10 @@ const About = () => {
         </h1>
         <Typer />
         <p className="about-descrip" data-aos="fade-right">
-          A passionate Front-end developer based in India with experience of 1
-          year. I love to work on web application & making new designs using
-          technologies like Javascript, React Js, Material UI , Redux &
-          Firebase.
+          A Front-End Developer with passion to create beautiful websites loaded
+          with features. I love to work on web application & making new designs
+          using technologies like Javascript, React JS, Tailwind CSS, Material
+          UI, Redux & Firebase.
         </p>
         <div className="contact center">
           <a
