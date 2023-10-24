@@ -24,13 +24,12 @@ const Intro = () => {
                 <span className="different"> Bihar (India)</span>. I have
                 completed my graduation in BCA (Bachelor of Computer
                 Applications) from{" "}
-                <span className="different">AKU University, Patna (Bihar)</span>
-                . Then I joined Front-end development course by{" "}
-                <span className="different">Relevel</span> &{" "}
-                <span className="different">AlmaBetter</span>
+                <span className="different">AKU University, Patna</span>. Then I
+                joined Front-end development course by{" "}
+                <span className="different">Relevel.</span>
               </h4>
               <h4 className="terms" data-aos="fade-right">
-                Terms That can describe me apart form Coding :
+                Terms that can describe me apart form Coding :
               </h4>
               <h4 className="different" data-aos="fade-right">
                 <span className="icons">

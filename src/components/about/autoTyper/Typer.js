@@ -9,10 +9,9 @@ const Type = () => {
           options={{
             strings: [
               "Front-End Developer",
-              "YouTuber",
-              "Video Gamer",
-              "Web Designer",
-              "Video Editor",
+              "You-Tuber",
+              "Web-Designer",
+              "UI-Developer",
             ],
             autoStart: true,
             loop: true,

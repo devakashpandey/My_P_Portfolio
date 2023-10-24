@@ -101,8 +101,8 @@ const Timeline = () => {
               <span className="different">Relevel</span> by Unacademy (Remote)
             </h4>
             <p data-aos="fade-right">
-              Joined the Relevel course to learn Front-end Development and Data
-              Structures. Also learned many soft skills in the process.
+              Joined the Relevel course to learn Front-end Development & also
+              learned many soft skills in the process.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -135,7 +135,7 @@ const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Aryabhatta Knowledge University (AKU), Patna (Bihar)
+              Aryabhatta Knowledge University (AKU), Patna
             </h4>
             <p data-aos="fade-right">
               I done my Bachelor of Computer Application which consists of

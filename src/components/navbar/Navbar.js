@@ -82,7 +82,7 @@ const Navbar = () => {
           {theme === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
         </button>
 
-        {/* mobile hamberger menu  */}
+        {/* mobile hamburger menu  */}
 
         <button
           type="button"

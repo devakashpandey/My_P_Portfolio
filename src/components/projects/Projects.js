@@ -135,7 +135,7 @@ const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://amazon-clone-by-akash.netlify.app"
+                    href="https://new-amazon-clone-2023.netlify.app"
                     target="_blank"
                     rel="noreferrer"
                   >

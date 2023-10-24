@@ -66,10 +66,6 @@ const Skills = () => {
               <SiNetlify />
               <h5>Netlify</h5>
             </div>
-            <div>
-              <SiFirebase />
-              <h5>Firebase</h5>
-            </div>
           </div>
         </div>
       </div>

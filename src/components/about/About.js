@@ -18,10 +18,11 @@ const About = () => {
         </h1>
         <Typer />
         <p className="about-descrip" data-aos="fade-right">
-          A Front-End Developer with passion to create beautiful websites loaded
-          with features. I love to work on web application & making new designs
-          using technologies like Javascript, React JS, Tailwind CSS, Material
-          UI, Redux & Firebase.
+          A Front-End Developer with passion to create and design beautiful
+          websites. I love to work on web application & making new designs using
+          technologies like Javascript, React JS, Tailwind CSS, Material UI,
+          Redux & Firebase.{" "}
+          <span>"I believe web design can be more diverse & inspiring."</span>
         </p>
         <div className="contact center">
           <a
@@ -47,7 +48,7 @@ const About = () => {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1Qmdiqj-IKi0AYwNCdQEkEhKJ3QZxw2fP/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1CMXzYqS5sM_R4_1daSEPaHstr9dejTNR/view?usp=sharing"
             aria-label="resume"
             className="link link--icon"
             target="_blank"
