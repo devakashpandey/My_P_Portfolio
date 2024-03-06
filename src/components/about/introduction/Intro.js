@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./Intro.css";
 import { ThemeContext } from "../../../context/Theme";
-import profilePic from "../../../assets/pic2.png";
+import profilePic from "../../../assets/my.png";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 
 const Intro = () => {
