@@ -64,7 +64,7 @@ const Timeline = () => {
               Trando / SD Campus
             </h4>
             <p data-aos="fade-right">
-              A Reat Front-end Developer for full time in Trando / SD Campus
+              A React Front-end Developer for full time in Trando / SD Campus
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
