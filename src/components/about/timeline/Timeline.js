@@ -33,7 +33,79 @@ const Timeline = () => {
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Feb 2023 - Present"}
+            date={"Jan 2024 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Front-End Developer (Full Time)
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Trando / SD Campus
+            </h4>
+            <p data-aos="fade-right">
+              A Reat Front-end Developer for full time in Trando / SD Campus
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date={"June 2023 - Dec 2023"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Front-End Developer (Intern)
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              SleekSites & Trando
+            </h4>
+            <p data-aos="fade-right">
+              Done two Internships in 7 months in company SleekSites and Trando
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date={"Feb 2023 - June -2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -70,7 +142,7 @@ const Timeline = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Oct 2022 - May 2023"}
+            date={"Sept 2022 - Feb 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -142,7 +214,7 @@ const Timeline = () => {
               various Programing languages.
             </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
+          {/* <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={"March 2018"}
             contentStyle={{
@@ -177,7 +249,7 @@ const Timeline = () => {
             <p data-aos="fade-right">
               Completed my 12th class in Science (PCM).
             </p>
-          </VerticalTimelineElement>
+          </VerticalTimelineElement> */}
 
           <VerticalTimelineElement
             icon={<StarIcon />}

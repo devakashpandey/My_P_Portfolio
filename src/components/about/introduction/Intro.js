@@ -22,11 +22,12 @@ const Intro = () => {
                 Hi Everyone, My name is{" "}
                 <span className="different">Akash Pandey</span> and I am from{" "}
                 <span className="different"> Bihar (India)</span>. I have
-                completed my graduation in BCA (Bachelor of Computer
-                Applications) from{" "}
+                completed my graduation in BCA from{" "}
                 <span className="different">AKU University, Patna</span>. Then I
-                joined Front-end development course by{" "}
-                <span className="different">Relevel.</span>
+                joined Front-end development course of{" "}
+                <span className="different">Unacademy </span> & also studied it
+                myself from{" "}
+                <span className="different">YouTube & Websites.</span>
               </h4>
               <h4 className="terms" data-aos="fade-right">
                 Terms that can describe me apart form Coding :

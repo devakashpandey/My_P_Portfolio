@@ -13,6 +13,11 @@ import { SiJavascript, SiFirebase } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap } from "react-icons/bs";
 import { SiTypescript } from "react-icons/si";
+import { FaSass } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { FaNode } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -66,6 +71,26 @@ const Skills = () => {
               <SiNetlify />
               <h5>Netlify</h5>
             </div>
+            <div>
+              <FaSass />
+              <h5>Sass</h5>
+            </div>
+            {/* <div>
+              <SiNextdotjs />
+              <h5>Next JS</h5>
+            </div>
+            <div>
+              <SiExpress />
+              <h5>Express JS</h5>
+            </div>
+            <div>
+              <FaNode />
+              <h5>Node JS</h5>
+            </div>
+            <div>
+              <SiMongodb />
+              <h5>Mongo DB</h5>
+            </div> */}
           </div>
         </div>
       </div>

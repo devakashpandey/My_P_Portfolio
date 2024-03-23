@@ -18,10 +18,10 @@ const About = () => {
         </h1>
         <Typer />
         <p className="about-descrip" data-aos="fade-right">
-          A Front-End Developer with passion to create and design beautiful
-          websites. I love to work on web application & making new designs using
-          technologies like Javascript, React JS, Tailwind CSS, Material UI,
-          Redux & Firebase.{" "}
+          A Front-End Developer with experience of 1+ years passion to create
+          and design beautiful websites. I love to work on web application &
+          making new designs using technologies like - React JS, Tailwind CSS,
+          Material UI & Redux.{" "}
           <span>"I believe web design can be more diverse & inspiring."</span>
         </p>
         <div className="contact center">

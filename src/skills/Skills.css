@@ -47,15 +47,24 @@
   top: 8px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .skills > div {
+    width: 15%;
+  }
   .skills {
-    height: 115vh;
+    height: 60vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .skills {
+    height: 120vh;
   }
   .skills > div {
-    width: 38%;
+    width: 35%;
     margin-bottom: 2%;
     height: 18vh;
-    margin-left: 7%;
+    margin-left: 9%;
   }
 }
 
