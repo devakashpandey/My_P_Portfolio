@@ -61,10 +61,11 @@ const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Trando / SD Campus
+              SD Campus
             </h4>
             <p data-aos="fade-right">
-              A React Front-end Developer for full time in Trando / SD Campus
+              A React Front-End Developer for full time in <br />
+              SD Campus (Noida)
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -100,7 +101,9 @@ const Timeline = () => {
               SleekSites & Trando
             </h4>
             <p data-aos="fade-right">
-              Done two Internships in 7 months in company SleekSites and Trando
+              Done two Internships in 7 months in two compaines{" "}
+              <span className="different">SleekSites</span> and
+              <span className="different"> Trando</span>
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -136,8 +139,8 @@ const Timeline = () => {
               Relevel, Code Help & Youtube
             </h4>
             <p data-aos="fade-right">
-              Making 15+ Projects using Html , Css, Javascript, React, Redux,
-              Tailwind Css, M UI, Bootstrap & Firebase.
+              Making 15+ Projects using Javascript, React JS, Redux, Tailwind
+              CSS, MUI & Firebase.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -210,46 +213,10 @@ const Timeline = () => {
               Aryabhatta Knowledge University (AKU), Patna
             </h4>
             <p data-aos="fade-right">
-              I done my Bachelor of Computer Application which consists of
+              I have done my Bachelor of Computer Application which consists of
               various Programing languages.
             </p>
           </VerticalTimelineElement>
-          {/* <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"March 2018"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<SchoolIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Student (Science)
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Jean Paul's High School, Ara (Bihar)
-            </h4>
-            <p data-aos="fade-right">
-              Completed my 12th class in Science (PCM).
-            </p>
-          </VerticalTimelineElement> */}
 
           <VerticalTimelineElement
             icon={<StarIcon />}

@@ -38,7 +38,7 @@ const Contact = () => {
               <CgMail className="email" />
             </a>
             <a
-              href="https://www.instagram.com/codingwithakash/"
+              href="https://www.instagram.com/developerakky/"
               target="_blank"
               rel="noreferrer"
             >

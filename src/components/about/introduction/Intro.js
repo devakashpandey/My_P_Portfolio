@@ -20,9 +20,9 @@ const Intro = () => {
             <div className="intro-data">
               <h4>
                 Hi Everyone, My name is{" "}
-                <span className="different">Akash Pandey</span> and I am from{" "}
-                <span className="different"> Bihar (India)</span>. I have
-                completed my graduation in BCA from{" "}
+                <span className="different">Akash Pandey</span> based in{" "}
+                <span className="different"> Delhi</span>. I have completed my
+                graduation in BCA from{" "}
                 <span className="different">AKU University, Patna</span>. Then I
                 joined Front-end development course of{" "}
                 <span className="different">Unacademy </span> & also studied it

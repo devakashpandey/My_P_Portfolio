@@ -91,7 +91,11 @@ const Projects = () => {
                   <SiMui title="Material UI" />
                 </div>
                 <div>
-                  <a href={tmoviesImg} target="_blank" rel="noreferrer">
+                  <a
+                    href="https://t-movies-react.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <span type="button" className="btns onbt">
                       See Demo
                     </span>
