@@ -3,7 +3,7 @@ import "./Contact.css";
 import { VscGithub } from "react-icons/vsc";
 import { CgMail } from "react-icons/cg";
 import { BsInstagram } from "react-icons/bs";
-import { FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 import { ThemeContext } from "../../context/Theme";
 
 const Contact = () => {
@@ -38,7 +38,7 @@ const Contact = () => {
               <CgMail className="email" />
             </a>
             <a
-              href="https://www.instagram.com/developerakky/"
+              href="https://www.instagram.com/firstclasscode/"
               target="_blank"
               rel="noreferrer"
             >
@@ -50,6 +50,14 @@ const Contact = () => {
               rel="noreferrer"
             >
               <FaTwitter className="twitter" />
+            </a>
+
+            <a
+              href="https://youtube.com/@firstclasscode"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaYoutube className="yt" />
             </a>
           </div>
         </div>

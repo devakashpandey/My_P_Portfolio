@@ -51,6 +51,9 @@
 .instagram:hover {
   color: #f40cda;
 }
+.yt:hover {
+  color: red;
+}
 
 @media (max-width: 670px) {
   .contactcontainer svg {
