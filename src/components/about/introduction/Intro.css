@@ -76,3 +76,21 @@
     padding-right: 7%;
   }
 }
+
+@media (max-width: 350px) {
+  .intro-data > h4:nth-child(1) {
+    font-size: 1rem;
+  }
+
+  .intro-data > h4:nth-child(2) {
+    font-size: 1rem;
+  }
+
+  .intro-data > h4 {
+    font-size: 1rem;
+  }
+
+  .my-pic > img {
+    width: 60%;
+  }
+}

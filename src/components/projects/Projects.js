@@ -132,7 +132,7 @@ const Projects = () => {
                   <FaReact title="React" />
                   <SiTailwindcss title="Tailwind css" />
                   <SiRedux title="Redux" />
-                  <SiReactrouter title="React Router" />
+
                   <SiMui title="Material UI" />
                   <SiFramer title="Framer Motion" />
                   <SiFirebase />
