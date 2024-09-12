@@ -18,10 +18,12 @@ const About = () => {
         </h1>
         <Typer />
         <p className="about-descrip" data-aos="fade-right">
-          A Front-End Developer with experience of 1+ years, Passion to create
-          and design beautiful websites. I love to work on web application &
-          making new designs using technologies like - React JS,Next JS ,
-          TypeScript Tailwind CSS & Redux.{" "}
+          A passionate Front-end Developer with 1.5 years of expertise in
+          developing user-friendly, adaptive and responsive websites with
+          optimized cross-browser compatibility and runtime performance. I love
+          to work on web application & making new designs using - React JS, Next
+          JS, TypeScript & Tailwind CSS.
+          <br />{" "}
           <span className="different">
             "I believe web design can be more diverse & inspiring."
           </span>
@@ -50,7 +52,7 @@ const About = () => {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1CMXzYqS5sM_R4_1daSEPaHstr9dejTNR/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ggwmu9a0-GCEZlTdHlnoHsxyWscb_vPd/view?usp=sharing"
             aria-label="resume"
             className="link link--icon"
             target="_blank"
