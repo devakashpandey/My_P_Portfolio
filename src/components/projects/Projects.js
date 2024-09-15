@@ -16,6 +16,8 @@ import projectCrypto from "../../assets/projects/crypto.png";
 import tmoviesImg from "../../assets/projects/t-movies.png";
 import amazonImg from "../../assets/projects/amazon.png";
 import filmy from "../../assets/projects/filmy.png";
+import sdstore from "../../assets/projects/sdstore.png";
+import sdcampus from "../../assets/projects/sdcampus.png";
 
 const Projects = () => {
   return (
@@ -27,39 +29,36 @@ const Projects = () => {
             <div className="project">
               <div className="project_banner">
                 <div>
-                  <img src={projectCrypto} alt="Crypto tracker" />
+                  <img src={sdstore} alt="t-movies" />
                 </div>
               </div>
               <div className="project_info">
-                <h2>Crypto Tracker</h2>
+                <h2>SD Store</h2>
                 <p>
-                  A Crypto Currency Tracker in which you can see the market
-                  price, 24hr change of top 100 Bitcoins with graph & also have
-                  Sign up and Sign in functionality.You can also add to cart the
-                  Bitcoin after Log in.
+                  Designed and developed a fully responsive e-commerce website
+                  for a book store using React.js, ensuring a seamless user
+                  experience across all devices. Created post-login features
+                  where users can view detailed book descriptions, add books to
+                  the cart or wishlist, and complete purchases through a
+                  user-friendly checkout process.
                 </p>
                 <div>
                   <FaReact title="React" />
-                  <DiCss3 title="CSS 3" />
-                  <SiMui title="Material UI" />
                   <SiReactrouter title="React Router" />
-                  <SiFirebase title="Firebase" />
+                  <SiRedux title="Redux" />
+                  <SiMui title="Material UI" />
                 </div>
                 <div>
                   <a
-                    href="https://live-crypto-currency-tracker.netlify.app/"
+                    href="https://store.sdcampus.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span type="button" className="btns onbt onbt">
+                    <span type="button" className="btns onbt">
                       See Demo
                     </span>
                   </a>
-                  <a
-                    href="https://github.com/devakashpandey/CryptoCurrency-Tracker-Project"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a href="" rel="noreferrer">
                     <span type="button" className="btns onbt">
                       View Code
                     </span>
@@ -68,6 +67,49 @@ const Projects = () => {
               </div>
             </div>
           </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_banner">
+                <div>
+                  <img src={sdcampus} alt="" />
+                </div>
+              </div>
+              <div className="project_info">
+                <h2>SD Campus</h2>
+                <p>
+                  Designed and developed pre-login website pages for a learning
+                  platform using React.js ensuring a fully responsive and
+                  user-friendly interface across devices. Created an intuitive
+                  UI for students to join online classes and engage in
+                  one-on-one conversations with instructors, improving the
+                  learning and communication experience.
+                </p>
+                <div>
+                  <FaReact title="React" />
+                  <SiRedux title="Redux" />
+                  <SiMui title="Material UI" />
+                  <SiReactrouter title="React Router" />
+                </div>
+                <div>
+                  <a
+                    href="https://www.sdcampus.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See Demo
+                    </span>
+                  </a>
+                  <a href="" rel="noreferrer">
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_banner">
@@ -161,29 +203,32 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="projects_container" data-aos="fade-right">
+          {/* crypto currency tracker */}
+          {/* <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_banner">
                 <div>
-                  <img src={filmy} alt="" />
+                  <img src={projectCrypto} alt="Crypto tracker" />
                 </div>
               </div>
               <div className="project_info">
-                <h2>Filmy Duniya</h2>
+                <h2>Crypto Tracker</h2>
                 <p>
-                  A Movies Collection web app where you can manually add Movies,
-                  Give Rating, Add Reviews after Signup & Login.Signup
-                  functionality with OTP verification.
+                  A Crypto Currency Tracker in which you can see the market
+                  price, 24hr change of top 100 Bitcoins with graph & also have
+                  Sign up and Sign in functionality.You can also add to cart the
+                  Bitcoin after Log in.
                 </p>
                 <div>
-                  <SiReact title="React" />
+                  <FaReact title="React" />
+                  <DiCss3 title="CSS 3" />
                   <SiMui title="Material UI" />
-                  <SiTailwindcss title="Tailwind css" />
-                  <SiFirebase title="firebase" />
+                  <SiReactrouter title="React Router" />
+                  <SiFirebase title="Firebase" />
                 </div>
                 <div>
                   <a
-                    href="https://flimy-duniya.netlify.app/"
+                    href="https://live-crypto-currency-tracker.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -192,7 +237,7 @@ const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/devakashpandey/Filmy-Duniya"
+                    href="https://github.com/devakashpandey/CryptoCurrency-Tracker-Project"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -203,7 +248,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
