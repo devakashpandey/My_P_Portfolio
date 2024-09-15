@@ -209,5 +209,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-// Location based weather app. User can also search for their cities and pickup location from map to see weather data of respective places.
