@@ -202,53 +202,6 @@ const Projects = () => {
               </div>
             </div>
           </div>
-
-          {/* crypto currency tracker */}
-          {/* <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_banner">
-                <div>
-                  <img src={projectCrypto} alt="Crypto tracker" />
-                </div>
-              </div>
-              <div className="project_info">
-                <h2>Crypto Tracker</h2>
-                <p>
-                  A Crypto Currency Tracker in which you can see the market
-                  price, 24hr change of top 100 Bitcoins with graph & also have
-                  Sign up and Sign in functionality.You can also add to cart the
-                  Bitcoin after Log in.
-                </p>
-                <div>
-                  <FaReact title="React" />
-                  <DiCss3 title="CSS 3" />
-                  <SiMui title="Material UI" />
-                  <SiReactrouter title="React Router" />
-                  <SiFirebase title="Firebase" />
-                </div>
-                <div>
-                  <a
-                    href="https://live-crypto-currency-tracker.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See Demo
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/devakashpandey/CryptoCurrency-Tracker-Project"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     </>
