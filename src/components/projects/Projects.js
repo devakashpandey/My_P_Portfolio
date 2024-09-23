@@ -29,36 +29,39 @@ const Projects = () => {
             <div className="project">
               <div className="project_banner">
                 <div>
-                  <img src={sdstore} alt="t-movies" />
+                  <img src={projectCrypto} alt="t-movies" />
                 </div>
               </div>
               <div className="project_info">
-                <h2>SD Store</h2>
+                <h2>Crypto Tracker</h2>
                 <p>
-                  Designed and developed a fully responsive e-commerce website
-                  for a book store using React.js, ensuring a seamless user
-                  experience across all devices. Created post-login features
-                  where users can view detailed book descriptions, add books to
-                  the cart or wishlist, and complete purchases through a
-                  user-friendly checkout process.
+                  A Crypto Currency Tracker in which you can see the market
+                  price, 24hr change of top 100 Bitcoins with graph & also have
+                  Sign up and Sign in functionality.You can also add to cart the
+                  Bitcoin after Log in.
                 </p>
                 <div>
                   <FaReact title="React" />
-                  <SiReactrouter title="React Router" />
-                  <SiRedux title="Redux" />
+                  <DiCss3 title="CSS 3" />
                   <SiMui title="Material UI" />
+                  <SiReactrouter title="React Router" />
+                  <SiFirebase title="Firebase" />
                 </div>
                 <div>
                   <a
-                    href="https://store.sdcampus.com/"
+                    href="https://live-crypto-currency-tracker.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span type="button" className="btns onbt">
+                    <span type="button" className="btns onbt onbt">
                       See Demo
                     </span>
                   </a>
-                  <a href="" rel="noreferrer">
+                  <a
+                    href="https://github.com/devakashpandey/CryptoCurrency-Tracker-Project"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <span type="button" className="btns onbt">
                       View Code
                     </span>

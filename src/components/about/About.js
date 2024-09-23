@@ -52,7 +52,7 @@ const About = () => {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1ggwmu9a0-GCEZlTdHlnoHsxyWscb_vPd/view?usp=sharing"
+            href="https://drive.google.com/file/d/14PmEymDXJyaRvF5xhisMObiVcyv5DJqK/view?usp=sharing"
             aria-label="resume"
             className="link link--icon"
             target="_blank"
