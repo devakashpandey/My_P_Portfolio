@@ -80,12 +80,11 @@ const Projects = () => {
               <div className="project_info">
                 <h2>SD Campus</h2>
                 <p>
-                  Designed and developed pre-login website pages for a learning
-                  platform using React.js ensuring a fully responsive and
-                  user-friendly interface across devices. Created an intuitive
-                  UI for students to join online classes and engage in
-                  one-on-one conversations with instructors, improving the
-                  learning and communication experience.
+                  Designed and developed pre-login & after-login website pages
+                  for a learning platform using React.js ensuring a fully
+                  responsive and user-friendly interface across devices. Created
+                  an intuitive UI for students to join online classes and engage
+                  in one-on-one conversations with instructors.
                 </p>
                 <div>
                   <FaReact title="React" />

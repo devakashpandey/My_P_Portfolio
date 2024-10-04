@@ -11,7 +11,7 @@ const Header = () => {
       <header className={"header center " + theme}>
         <h3>
           <a href="#home" className="link">
-            Akash <span className="pandey">Pandey</span>
+            Akash
           </a>
         </h3>
         <Navbar />
